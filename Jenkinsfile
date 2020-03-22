@@ -5,7 +5,7 @@ node {
     // Clone repo
 	git branch: 'master', 
 	credentialsId: 'github', 
-	url: 'https://github.com/javahometech/myweb' 
+	url: 'https://github.com/ashutosh1701/my-app' 
    }
     	
    stage('Mvn Package'){
