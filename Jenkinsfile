@@ -1,4 +1,3 @@
-
 node {
    def mvn = tool (name: 'mavendefault', type: 'maven') + '/bin/mvn'
    stage('SCM Checkout'){
